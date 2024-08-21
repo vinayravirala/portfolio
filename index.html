@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Naga Gopi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="content">
+                <div class="text">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>
+                        "I am seeking a challenging position in a reputed organization where I can expand my knowledge, leverage my learnings, and contribute effectively to the team. My goal is to utilize my existing technical expertise while continuously developing new skills to enhance my contributions to the organization. I am eager to embrace new challenges that will allow me to grow professionally and personally, ultimately becoming a valuable asset to the company by driving innovation, solving complex problems, and delivering high-quality results."
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/011/865/108/original/animated-developer-flat-character-full-body-person-4k-footage-with-alpha-channel-online-course-remote-programming-job-color-cartoon-style-illustration-for-motion-graphic-design-and-animation-video.jpg" alt="Portfolio Image">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Vinay Naga Gopi, a passionate and dedicated Computer Science student at Vignan University, specializing in software development and problem-solving. With a strong foundation in programming, I enjoy building innovative solutions that make a real-world impact. My journey in tech has been fueled by a love for learning and a drive to stay at the forefront of industry trends.
+
+                Whether it's developing web applications, exploring the latest advancements in AI, or honing my skills in full-stack development, I am always eager to take on new challenges. I believe in the power of technology to transform ideas into reality, and I am committed to continuous growth and excellence in everything I do.
+                
+                I am not only focused on mastering technical skills but also on collaborating with others to bring projects to life. I thrive in environments that foster creativity and teamwork, and I am always ready to contribute my knowledge while learning from others.
+                
+                My goal is to leverage my technical expertise and creative problem-solving abilities to contribute meaningfully to the tech industry, driving innovation and making a difference in the world.
+                
+                </p>
+                <div><center><button class="my-button">Resume-CV</button></div></div></center></div>
+        </div>
+    </section>
+
+    <section id="skills">
+        
+        <div class="container flex-container">
+            <div class="flex-item"><b>Proficient in Coding</b>
+                <br>
+                <div class="flex-item" style="color:rgb(0, 255, 21)">
+                I possess strong proficiency in C and Python, with a deep understanding of their syntax, libraries, and frameworks. In C, I have experience in systems programming, data structures, and algorithm optimization. My Python skills include developing scripts, automation, data analysis, and machine learning applications. I have successfully completed several projects using both languages, showcasing my ability to solve complex problems efficiently. My ability to switch between these languages allows me to tackle a wide range of programming challenges.
+            </div>
+        </div>
+            <div class="flex-item"><b>FULL STACK</b>
+            <br>
+            <div class="flex-item" style="color:rgb(0, 255, 21)">
+            I am a proficient full-stack developer with expertise in both front-end and back-end technologies. On the front-end, I am skilled in HTML, CSS, JavaScript, and modern frameworks like React, ensuring responsive and user-friendly interfaces. My back-end experience includes working with Node.js, Python (Django/Flask), and databases like MySQL and MongoDB, enabling me to build robust and scalable applications. I have successfully delivered end-to-end solutions, from design to deployment, demonstrating my ability to manage the entire development lifecycle.
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container flex-container">
+            <div class="flex-item2"><b> Cancer Detection</b>
+                <div class="flex-item1" >
+                  <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpk1qlYhYTh1FHwgA4uuycFlNpeKQZJjKXQ&s" width="200vh" height="200vh" > 
+                </div>
+                <div class="text">
+                  This project explores DenseNet-based deep learning approaches for automating lung cancer detection using CT scan images, emphasizing preprocessing steps like normalization, resizing, and data augmentation to enhance performance. 
+                </p>
+                </div>
+                </div>
+            </div>
+            <div class="flex-item2"><b>App Rating Prediction</b>
+                <div class="flex-item1" >
+                    <div>
+                  <img src="https://static.vecteezy.com/system/resources/previews/002/416/417/original/someone-is-analyzing-a-data-vector.jpg" width="200vh" height="200vh" > 
+                  </div>
+                  <div class="text">
+                    This study presents an ensemble learning approach
+                    using Gradient Boost and AdaBoost for predicting Google
+                    Play Store app ratings, achieving a notable 92.6%
+                    accuracy by leveraging app metadata.                  </p>
+                  </div>
+                  </div>
+              </div>
+
+                
+            
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
